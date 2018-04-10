@@ -39,8 +39,10 @@ var index2_data = {
 	},
 	tooltip: {
 		trigger: 'axis',
+		textStyle: {
+			fontSize: 24
+		}
 		formatter: function(params) {
-			console.log(params)
 			var name = params[0].axisValue;
 			var cap = params[0].value >= 0.2 ? '奖金150元' : '无奖金';
 			cap = params[0].dataIndex >= y_data.length - 5 ? '奖金150元，前五名额外奖励300元' : cap;
