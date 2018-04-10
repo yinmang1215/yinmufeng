@@ -41,7 +41,7 @@ var index2_data = {
 		trigger: 'axis',
 		textStyle: {
 			fontSize: 24
-		}
+		},
 		formatter: function(params) {
 			var name = params[0].axisValue;
 			var cap = params[0].value >= 0.2 ? '奖金150元' : '无奖金';
