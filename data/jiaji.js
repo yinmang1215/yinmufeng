@@ -80,7 +80,7 @@ var index2_data = {
 	tooltip: {
 		trigger: 'axis',
 		textStyle: {
-			fontSize: 24
+			fontSize: 14
 		},
 		formatter: function(params) {
 			var name = params[0].axisValue;
@@ -89,6 +89,15 @@ var index2_data = {
 			return name + '<br/>' + cap;
 		}
 	},
+	toolbox: {
+        show : true,
+        feature : {
+            dataView : {show: true, readOnly: false},
+            magicType : {show: true, type: ['line', 'bar']},
+            restore : {show: true},
+            saveAsImage : {show: true}
+        }
+    },
 	grid: {
 		top: 50,
 		bottom: 15,
@@ -175,7 +184,7 @@ var index2_data = {
 		axisLabel: {
 			textStyle: {
 				color: '#000',
-				fontSize: 20,
+				fontSize: 14,
 				align: 'right'
 			}
 		},
@@ -198,7 +207,7 @@ var index2_data = {
 			normal: {
 				position: 'insideRight',
 				show: true,
-				fontSize: 24,
+				fontSize: 14,
 				formatter: function(value) {
 					return(value.data * 100).toFixed(2) + '%';
 				}
