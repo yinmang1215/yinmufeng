@@ -22,7 +22,7 @@
 
 var index2_data = {
 	title: {
-		text: '甲级(单店营收1000元以上)',
+		text: '甲级',
 		subtext: '第一周',
 		left: 'center',
 		textStyle: {

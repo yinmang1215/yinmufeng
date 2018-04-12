@@ -34,7 +34,7 @@
 
 var index2_data = {
 	title: {
-		text: '丙级(单店营收500元以下)',
+		text: '丙级',
 		subtext: '第一周',
 		left: 'center',
 		textStyle: {

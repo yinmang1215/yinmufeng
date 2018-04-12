@@ -68,7 +68,7 @@
 
 var index2_data = {
 	title: {
-		text: '乙级(单店营收500~1000元)',
+		text: '乙级',
 		subtext: '第一周',
 		left: 'center',
 		textStyle: {
